@@ -1,6 +1,6 @@
 import React from 'react';
 import { FormGroup, Label, Input, FormText } from 'reactstrap';
-//import logo from './logo.svg';
+
 //import { Button } from 'reactstrap';
 
 function Upload() {
