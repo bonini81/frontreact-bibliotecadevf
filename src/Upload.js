@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+import { FormGroup, Label, Input, FormText } from 'reactstrap';
+//import logo from './logo.svg';
+//import { Button } from 'reactstrap';
 
 function Upload() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <React.Fragment>
+        <div class="container">
+        <div class="row mx-auto" style={{width: "400px"}}>
+        
+      <h2>Suba su Libro!</h2>
+      <p>Por favor no suba un libro más de 5MB. Gracias.</p>
+      <FormGroup>
+      <Label for="exampleFile">Archivo</Label>
+      <Input type="file" name="file" id="exampleFile" />
+      <FormText color="muted">
+        Gracias por su colaboración a nuestra comunidad.
+      </FormText>
+    </FormGroup>
+    
+    </div>
+    </div>
+    </React.Fragment>
     );
   }
   
