@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Upload from './components/Upload';
+import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Upload />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
